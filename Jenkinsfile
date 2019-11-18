@@ -13,5 +13,5 @@ withDockerRegistry([credentialsId: 'saritha1234',url: "https://hub.docker.com/re
 sh 'docker tag saritha1234/helloworld saritha1234/helloworld:dev'
 sh 'docker push saritha1234/helloworld:dev'
 }
-
+}
 
