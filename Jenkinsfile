@@ -2,7 +2,7 @@ node{
    
    stage(" Code Checkout")
       echo 'App build started..'
-      print('Welcome world')
+      git url:'https://github.com/1234saritha/Jigar.git'
    
 stage('Docker Build')
 def app = sudo docker.build "saritha1234/helloworld"
