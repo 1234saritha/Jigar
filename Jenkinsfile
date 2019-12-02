@@ -6,7 +6,7 @@ node{
       }
    
    stage('Docker Build') {
-     def app = docker.build "saritha1234/helloworld"
+     def app = docker.build "saritha1234/saru"
 }
 
 //stage("Tag & Push image")
