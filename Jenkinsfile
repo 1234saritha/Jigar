@@ -2,11 +2,11 @@ node{
    
    stage(" Code Checkout"){
       echo 'App build started..'
-      git credentialsId:'f2f05672-4f3b-41b8-9b2f-8c2c706be0fa', url:'https://github.com/1234saritha/Jigar.git'
+      git credentialsId:  'f2f05672-4f3b-41b8-9b2f-8c2c706be0fa', url:  'https://github.com/1234saritha/Jigar.git'
       }
    
-   stage('Docker Build'){
-def app = sudo docker.build "saritha1234/helloworld"
+   stage('Docker Build') {
+     def app = docker.build "saritha1234/helloworld"
 }
 
 //stage("Tag & Push image")
