@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM scratch:latest
+FROM scratch
 
 MAINTAINER Saritha A
 
