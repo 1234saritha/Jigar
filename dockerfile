@@ -10,7 +10,7 @@ MAINTAINER Saritha A
  ADD . /app
 
 # Install any needed packages specified in requirements.txt
- RUN pip install -r requirements.txt
+ RUN pip install -r requirement.txt
 
 # Install python newrelic agent on this docker image
 # RUN pip install newrelic ( to avoid this layer, added newrelic inside requirement.txt)
