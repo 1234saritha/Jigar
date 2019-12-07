@@ -6,6 +6,7 @@ node{
       }
    
    stage('Docker Build') {
+   sudo su
      def app = docker.build "saritha1234/saru"
 }
 
