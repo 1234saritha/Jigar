@@ -6,7 +6,7 @@ node{
       }
    
    stage('Docker Build') {
-  //sudo usermod-a -G docker jenkins
+    sudo usermod -a -G docker alice
      def app = docker.build "saritha1234/saru"
 }
 
